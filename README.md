@@ -1,4 +1,4 @@
-# MCP Vacation Server SSE
+# MCP Vacation Server
 
 Servidor MCP (Model Context Protocol) para gerenciamento de férias com autenticação JWT e transporte HTTP streamable.
 
@@ -18,10 +18,10 @@ npm run build
 ```bash
 npm start
 # ou
-node build/index.js --port=8123
+node build/index.js --port=3001
 ```
 
-O servidor estará disponível em `http://localhost:8123`
+O servidor estará disponível em `http://localhost:3001`
 
 ## 🧪 Como testar
 
@@ -38,7 +38,7 @@ node test-client.js
 ### Teste com curl
 ```bash
 # Inicializar conexão MCP
-curl -X POST http://localhost:8123/mcp \
+curl -X POST http://localhost:3001/mcp \
   -H "Content-Type: application/json" \
   -d '{
     "jsonrpc": "2.0",
@@ -61,7 +61,7 @@ O servidor requer autenticação JWT via header `Authorization: Bearer <token>`.
 VACATION_API_URL=http://localhost:3000  # URL da API de férias
 USER_SECRET=your-secret                 # Secret do usuário
 USER_ID=user-id                         # ID do usuário
-PORT=8123                               # Porta do servidor
+PORT=3001                               # Porta do servidor
 ```
 
 ## 🛠️ Ferramentas disponíveis

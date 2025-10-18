@@ -41,7 +41,7 @@ async function authMiddleware(req: Request, res: Response, next: NextFunction) {
 }
 
 // Server bootstrap
-let PORT = Number(process.env.PORT || 3012);
+let PORT = Number(process.env.PORT || 3001);
 for (let i = 2; i < process.argv.length; i++) {
   const arg = process.argv[i];
   if (arg.startsWith("--port=")) {
@@ -50,7 +50,7 @@ for (let i = 2; i < process.argv.length; i++) {
   }
 }
 
-const server = new MCPServer(new Server({ name: "mcp-server-vacation-sse", version: "1.0.0" }, { capabilities: { tools: {}, logging: {} } }));
+const server = new MCPServer(new Server({ name: "mcp-server-vacation", version: "1.0.0" }, { capabilities: { tools: {}, logging: {} } }));
 
 const app = express();
 app.use(express.json());

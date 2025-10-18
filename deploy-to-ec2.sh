@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Script para deploy do mcp-server-vacation-sse para EC2
+# Script para deploy do mcp-server-vacation para EC2
 # Configurações
 PEM_PATH="/Users/carlossilva/Documents/grifo/connect/grifo.pem"
 EC2_HOST="ec2-user@ec2-54-237-29-143.compute-1.amazonaws.com"
-REMOTE_PATH="/home/ec2-user/node-workspace/mcp-server-vacation-sse"
-LOCAL_PATH="/Users/carlossilva/Documents/grifo/workspace/mcp-server-vacation-sse"
+REMOTE_PATH="/home/ec2-user/node-workspace/mcp-server-vacation"
+LOCAL_PATH="/Users/carlossilva/Documents/grifo/workspace/mcp-server-vacation"
 
 echo "🚀 Iniciando deploy para EC2..."
 echo "📁 Origem: $LOCAL_PATH"
