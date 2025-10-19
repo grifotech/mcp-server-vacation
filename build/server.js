@@ -9,8 +9,14 @@ function createAxiosInstance() {
     const payload = tokenData.payload;
     const secret = tokenData.secret;
     const API_BASE_URL = process.env.VACATION_API_URL || payload?.link || "http://localhost:3000";
-    const USER_SECRET = process.env.USER_SECRET || secret || "default-secret";
+    const USER_SECRET = secret || process.env.USER_SECRET || "default-secret";
     const USER_ID = process.env.USER_ID || payload?.key?.identifier || "default-user";
+    console.log("🔧 VACATION API CONFIGURATION:");
+    console.log("  📡 API_BASE_URL:", API_BASE_URL);
+    console.log("  🔐 USER_SECRET:", USER_SECRET);
+    console.log("  👤 USER_ID:", USER_ID);
+    console.log("  📦 Payload:", JSON.stringify(payload, null, 2));
+    console.log("  🔑 Secret from token:", secret);
     return axios.create({
         baseURL: API_BASE_URL,
         headers: {

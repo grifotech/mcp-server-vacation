@@ -1,0 +1,37 @@
+Oct 18 02:33:55 ip-172-31-20-67.ec2.internal node[509098]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:33:55 ip-172-31-20-67.ec2.internal node[509098]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:33:55 ip-172-31-20-67.ec2.internal node[509098]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:33:55 ip-172-31-20-67.ec2.internal node[509098]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:34:17 ip-172-31-20-67.ec2.internal node[509098]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:34:17 ip-172-31-20-67.ec2.internal node[509098]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:34:17 ip-172-31-20-67.ec2.internal node[509098]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:34:17 ip-172-31-20-67.ec2.internal node[509098]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:34:18 ip-172-31-20-67.ec2.internal node[509098]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:37:55 ip-172-31-20-67.ec2.internal systemd[1]: Stopping mcp.service - MCP Server System...
+Oct 18 02:37:55 ip-172-31-20-67.ec2.internal systemd[1]: mcp.service: Deactivated successfully.
+Oct 18 02:37:55 ip-172-31-20-67.ec2.internal systemd[1]: Stopped mcp.service - MCP Server System.
+Oct 18 02:37:55 ip-172-31-20-67.ec2.internal systemd[1]: Started mcp.service - MCP Server System.
+Oct 18 02:37:56 ip-172-31-20-67.ec2.internal node[509628]: MCP Vacation SSE Server listening on port 3001
+Oct 18 02:38:59 ip-172-31-20-67.ec2.internal node[509628]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:38:59 ip-172-31-20-67.ec2.internal node[509628]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:38:59 ip-172-31-20-67.ec2.internal node[509628]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:38:59 ip-172-31-20-67.ec2.internal node[509628]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]: Token JWT validado com sucesso: { vaultId: 'cingo', vaultName: 'cingo', link: 'http://localhost:3000' }
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]: 🔧 VACATION API CONFIGURATION:
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   📡 API_BASE_URL: http://localhost:3000
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   🔐 USER_SECRET: eyJ2YXVsdElkIjoiY2luZ28iLCJ2YXVsdE5hbWUiOiJjaW5nbyIsImxpbmsiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJpYXQiOjE3NjA3NTUxMzN9
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   👤 USER_ID: default-user
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   📦 Payload: {
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   "vaultId": "cingo",
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   "vaultName": "cingo",
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   "link": "http://localhost:3000",
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   "key": {},
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   "accessTime": "2025-10-18T02:38:53.450Z",
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   "exp": 1760758733,
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   "iat": 1760755133
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]: }
+Oct 18 02:39:26 ip-172-31-20-67.ec2.internal node[509628]:   🔑 Secret from token: eyJ2YXVsdElkIjoiY2luZ28iLCJ2YXVsdE5hbWUiOiJjaW5nbyIsImxpbmsiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJpYXQiOjE3NjA3NTUxMzN9
